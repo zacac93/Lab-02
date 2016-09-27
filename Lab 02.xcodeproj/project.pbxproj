@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44A32121C8E4C4B0005B4BF /* LinkedList.h in Sources */ = {isa = PBXBuildFile; fileRef = B44A32111C8E4C4B0005B4BF /* LinkedList.h */; };
 		B4DE2FC51C8CFA36001394E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4DE2FC41C8CFA36001394E9 /* main.cpp */; };
+		B4DE2FCE1C8CFA54001394E9 /* Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4DE2FCB1C8CFA54001394E9 /* Factory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B44A32111C8E4C4B0005B4BF /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		B4DE2FC11C8CFA36001394E9 /* Lab 02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab 02"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DE2FC41C8CFA36001394E9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B4DE2FCB1C8CFA54001394E9 /* Factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Factory.cpp; path = ../../../../../Downloads/lab2/Student_Code/Factory.cpp; sourceTree = "<group>"; };
+		B4DE2FCC1C8CFA54001394E9 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Factory.h; path = ../../../../../Downloads/lab2/Student_Code/Factory.h; sourceTree = "<group>"; };
+		B4DE2FCD1C8CFA54001394E9 /* LinkedListInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedListInterface.h; path = ../../../../../Downloads/lab2/Student_Code/LinkedListInterface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				B4DE2FC41C8CFA36001394E9 /* main.cpp */,
+				B4DE2FCB1C8CFA54001394E9 /* Factory.cpp */,
+				B4DE2FCC1C8CFA54001394E9 /* Factory.h */,
+				B4DE2FCD1C8CFA54001394E9 /* LinkedListInterface.h */,
+				B44A32111C8E4C4B0005B4BF /* LinkedList.h */,
 			);
 			path = "Lab 02";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4DE2FCE1C8CFA54001394E9 /* Factory.cpp in Sources */,
+				B44A32121C8E4C4B0005B4BF /* LinkedList.h in Sources */,
 				B4DE2FC51C8CFA36001394E9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +249,7 @@
 				B4DE2FCA1C8CFA36001394E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
